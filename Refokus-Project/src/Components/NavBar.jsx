@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function NavBar() {
   return (
-    <div className="sm:max-w-screen-xl mx-auto py-6 bg-zinc-800 flex justify-between items-center">
+    <div className="max-w-screen-xl mx-auto py-6 bg-zinc-800 flex justify-between items-center">
       <div className="flex items-center">
         <img style={{ height: 35 }} src={image} alt="" />
       <div className="flex links gap-14 ml-25">

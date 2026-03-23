@@ -7,8 +7,8 @@ function App() {
   return (
     <div className=' bg-zinc-800 text-white'>
       <NavBar/>
-      {/* <Work/>
-      <Stripes/> */}
+      <Work/>
+      {/* <Stripes/> */}
     </div>
   ) 
 }
