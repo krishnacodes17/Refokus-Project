@@ -1,0 +1,56 @@
+.page5 {
+  padding-bottom: 3rem;
+}
+
+.page5 .elem {
+  /* background-color: #2289ff; */
+  white-space: nowrap;
+  overflow-x: hidden;
+  margin-bottom: -2vw;
+}
+.elem h1 {
+  font-size: 7vw;
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 15px;
+  animation: runleftAnmimation 13s linear infinite;
+}
+
+.page5 .elem2 {
+  /* background-color: #2289ff; */
+  white-space: nowrap;
+  overflow-x: hidden;
+  margin-bottom: -2vw;
+}
+
+.page5 .elem2 h1 {
+  font-size: 7vw;
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 15px;
+  animation: runleftAnmimation 15s linear infinite;
+  animation-direction: reverse;
+}
+
+@keyframes runleftAnmimation {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(calc(-100% - 20px));
+  }
+}
+
+.elem span {
+  font-style: italic;
+  color: transparent;
+}
+
+.elem2 span {
+  font-style: italic;
+  color: transparent;
+}
