@@ -4,7 +4,7 @@ import './infinite.css'
 function Infinite() {
   return (
     <div class="page5" data-scroll >
-      <div class="elem">
+      <div className="elem">
         <h1>
           <span>Sport</span> - Fasion - Technology -
         </h1>

@@ -9,7 +9,7 @@ function NavBar() {
         <img style={{ height: 35 }} src={image} alt="" />
       <div className="flex links gap-14 ml-25">
         {["Home", "Work", "Culture" ," ","News"].map((elem, index) => (
-          <a className="text-lg flex  items-center gap-1">
+          <a key={index} className="text-lg flex  items-center gap-1">
             {index === 1 ? (
               <span
                 style={{ boxShadow: "0 0 0.25 #00FF19" }}
