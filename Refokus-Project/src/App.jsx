@@ -1,8 +1,10 @@
 import React from 'react'
 import NavBar from './Components/NavBar'
 import Work from './Components/Work'
-import Stripes from './Components/Stripes'
 import Infinite from './Components/Infinite'
+import Products from './Components/Products'
+import Cards from './Components/Cards'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -10,6 +12,9 @@ function App() {
       <NavBar/>
       <Work/>
       <Infinite />
+      <Products />
+      <Cards />
+      <Footer />
     </div>
   ) 
 }
